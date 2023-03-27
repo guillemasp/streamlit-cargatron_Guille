@@ -21,7 +21,7 @@ datos = pd.read_csv("data/red_recarga_acceso_publico_2021.csv", sep=";")
 
 if option == "Home":
 
-    st.title('My App Home')
+    st.title(":blue[My App]")
 
 
     with st.expander("Detalles de la aplicación- Haz clic para expandir"):
